@@ -1,0 +1,38 @@
+@import url("https://fonts.cdnfonts.com/css/futura-lt");
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: "Futura LT", sans-serif;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+ul {
+  padding: 0;
+  position: absolute;
+  bottom: -60%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+ul li {
+  list-style: none;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3rem;
+  opacity: 0;
+  mix-blend-mode: difference;
+  transform-origin: center;
+}
+
+.animate-button {
+  position: absolute;
+  inset: 0;
+  height: fit-content;
+  width: fit-content;
+}
